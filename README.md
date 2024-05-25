@@ -10,8 +10,8 @@
 
  ## Тест случаи според критериумот Every statement
  1. Листата е празна(allItems==null) - во тој случај throws exception.
- 2. Сите услови да се исполнети(allitems!=null name="bread" barcode="012345" discount>0 price>300 payment>sum) - returns true.
- 3. Условот за barcode не е исполнет(allitems!=null name=null barcode="0-12345") - (allowed.indexOf(c) == -1) поради што throws exception.
- 4. Условите (item.getDiscount() > 0) и (sum <= payment) не се исполнети - allitems!=null name==null barcode="012345" discount=0 payment<sum.
+ 2. Сите услови да се исполнети(allitems!=null name="bread" barcode="022222" discount>0 price>300 payment>sum) - returns true.
+ 3. Условот за barcode не е исполнет(allitems!=null name=null barcode="0-76543") - (allowed.indexOf(c) == -7) поради што throws exception.
+ 4. Условите (item.getDiscount() > 0) и (sum <= payment) не се исполнети - allitems!=null name==null barcode="011111" discount=0 payment<sum.
  5. Нема barcode (item.getBarcode() != null) - allitems!=null name=null barcode=null поради што throws exception.
 
