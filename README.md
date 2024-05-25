@@ -15,3 +15,6 @@
  4. Условите (item.getDiscount() > 0) и (sum <= payment) не се исполнети - allitems!=null name==null barcode="011111" discount=0 payment<sum.
  5. Нема barcode (item.getBarcode() != null) - allitems!=null name=null barcode=null поради што throws exception.
 
+## Тест случаи според критериумот Every path
+![multiplecondition](https://github.com/de1u1u/SI_2024_lab2_212073/assets/159577970/67cd8d6f-0231-4053-bff1-bd6f9f44b2ae)
+
